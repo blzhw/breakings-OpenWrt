@@ -655,7 +655,7 @@ sed -i 's/PKG_HASH:=.*/PKG_HASH:=eb872b4f0e1f0ebe59c9f7bd8c506c4204893ba6a8492de
 # nano
 #sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=7.2/g' feeds/packages/utils/nano/Makefile
 #sed -i 's/PKG_HASH:=.*/PKG_HASH:=86f3442768bd2873cec693f83cdf80b4b444ad3cc14760b74361474fc87a4526/g' feeds/packages/utils/nano/Makefile
-#cp -rf $GITHUB_WORKSPACE/general/nano feeds/packages/utils
+ cp -rf $GITHUB_WORKSPACE/general/nano feeds/packages/utils
 
 # dnsproxy
 sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=0.65.2/g' feeds/packages/net/dnsproxy/Makefile
